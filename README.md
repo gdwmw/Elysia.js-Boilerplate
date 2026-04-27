@@ -1,5 +1,9 @@
 # Elysia.js Boilerplate
 
+![Home](public/project/1.png)
+![Register](public/project/2.png)
+![Response](public/project/3.png)
+
 Boilerplate By [Gede Dewo Wahyu M.W](https://github.com/gdwmw) ❤️
 
 ## Boilerplate Description 📖

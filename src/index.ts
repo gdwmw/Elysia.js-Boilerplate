@@ -58,7 +58,7 @@ const app = new Elysia()
         },
         info: {
           description: "REST API built with ElysiaJS, Prisma, and JWT Authentication",
-          title: "Belajar Elysia API",
+          title: "Elysia.js Boilerplate",
           version: "1.0.0",
         },
       },
