@@ -93,7 +93,7 @@ To get started, follow these steps:
 3. **Set up environment variables**
 
    ```bash
-   bun run cpenv
+   bun cpenv
    ```
 
 4. **Set `ELYSIA_PORT` to your desired port**
@@ -105,25 +105,25 @@ To get started, follow these steps:
 5. **Generate a base64 value for `JWT_ACCESS_SECRET` and `JWT_REFRESH_SECRET`**
 
    ```bash
-   bun run base64
+   bun base64
    ```
 
 6. **Generate Prisma client**
 
    ```bash
-   bun run generate
+   bun generate
    ```
 
 7. **Run database migrations**
 
    ```bash
-   bun run migrate
+   bun migrate
    ```
 
 8. **Run the development server**
 
    ```bash
-   bun run dev
+   bun dev
    ```
 
 9. **Access the application**
@@ -149,7 +149,7 @@ When committing changes with `bun run commit`, follow these steps:
    Execute:
 
    ```bash
-   bun run commit
+   bun commit
    ```
 
 4. **Follow the interactive prompt**  
@@ -201,7 +201,7 @@ If you would like to contribute, follow these steps:
    Commit with a descriptive message:
 
    ```bash
-   bun run commit
+   bun commit
    ```
 
 6. **Push to your fork**  

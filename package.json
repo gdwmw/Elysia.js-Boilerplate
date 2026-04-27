@@ -2,6 +2,7 @@
   "name": "elysiajs",
   "version": "0.1.0",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts",
@@ -41,7 +42,7 @@
     "@types/sharp": "^0.32.0",
     "bun-types": "latest",
     "commitizen": "^4.3.1",
-    "cz-git": "^1.12.0",
+    "cz-git": "^1.13.0",
     "eslint": "^9.39.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-perfectionist": "^5.9.0",

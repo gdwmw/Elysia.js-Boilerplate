@@ -13,6 +13,8 @@
     "esbenp.prettier-vscode",
     "yoavbls.pretty-ts-errors",
     "rangav.vscode-thunder-client",
-    "gruntfuggly.todo-tree"
+    "gruntfuggly.todo-tree",
+    "pedrohenrique-ql.regex-match",
+    "prisma.prisma"
   ]
 }
