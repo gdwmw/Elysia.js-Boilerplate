@@ -1,0 +1,55 @@
+{
+  "name": "elysiajs",
+  "version": "0.1.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts",
+    "generate": "prisma generate",
+    "migrate": "prisma migrate dev",
+    "reset": "prisma migrate reset",
+    "lint": "eslint --max-warnings 0",
+    "lint:fix": "eslint --fix",
+    "prettier": "prettier --write .",
+    "check-types": "tsc --noEmit",
+    "cpenv": "cp .env.example .env",
+    "base64": "openssl rand -base64 64",
+    "commit": "git-cz",
+    "prepare": "husky"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.4.2",
+    "@elysiajs/jwt": "^1.4.2",
+    "@elysiajs/swagger": "^1.3.1",
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "dotenv": "^17.4.2",
+    "elysia": "latest",
+    "plaiceholder": "^3.0.0",
+    "prisma": "^7.8.0",
+    "sharp": "^0.34.5",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^20.5.2",
+    "@commitlint/config-conventional": "^20.5.0",
+    "@types/sharp": "^0.32.0",
+    "bun-types": "latest",
+    "commitizen": "^4.3.1",
+    "cz-git": "^1.13.0",
+    "eslint": "^9.39.4",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-perfectionist": "^5.9.0",
+    "eslint-plugin-prettier": "^5.5.5",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "typescript-eslint": "^8.59.0"
+  },
+  "module": "src/index.js"
+}
